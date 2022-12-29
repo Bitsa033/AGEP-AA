@@ -29,5 +29,5 @@ function payment_of_school() {
         }
         
     })
-    setTimeout(payment_of_school,1000)
+    //setTimeout(payment_of_school,1000)
 }

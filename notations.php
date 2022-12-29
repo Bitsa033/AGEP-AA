@@ -31,7 +31,7 @@
         *********************************************************************************************************************************************************** -->
     <!--main content start-->
     <section id="main-content">
-      <?php require_once 'pages/form_modal.php'; ?>
+      <?php require_once 'pages/note_add.php'; ?>
 
       </section>
       <!-- /wrapper -->
@@ -39,7 +39,11 @@
     <!-- /MAIN CONTENT -->
     <!--main content end-->
     <!--footer start-->
-    
+    <footer class="site-footer">
+      
+    </footer>
+    <!--footer end-->
+
   </section>
 
   <!-- js placed at the end of the document so the pages load faster -->
@@ -47,7 +51,7 @@
  <script type="text/javascript" src="includes/information.js"></script>
 
   <script type="text/javascript">
-      data()
+      payment_of_school()
   </script>
   
 </body>
