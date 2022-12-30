@@ -31,7 +31,7 @@
         *********************************************************************************************************************************************************** -->
     <!--main content start-->
     <section id="main-content">
-      <?php require_once 'pages/form_modal.php'; ?>
+      <?php require_once 'includes/form_modal.php'; ?>
 
       </section>
       <!-- /wrapper -->
