@@ -42,18 +42,22 @@ session_start();
       <td>
           <ul class="list-inline">
               <li class="list-inline-item">
-                  <img alt="Avatar" class="table-avatar img img-circle" width="<?php echo $w.'px' ?>" src="photos/pascal.jpg">
+                  <i class="fa fa-user"></i>
                   <span id="id"><?php echo "MAT-".$a["id"]; ?></span>
                   <h5><strong><?php echo $nomprenom; ?></strong></h5>
+                  <div>
+                    <h5> Sexe: <strong><?php echo $gender; ?></strong> </h5>
+                    <h5> Classe: <strong><?php echo $classe; ?></strong> </h5>
+                  </div>
               </li>
               
           </ul>
       </td>
       <td>
-        <h5> Sexe: <strong><?php echo $gender; ?></strong> </h5>
-        <h5> Classe: <strong><?php echo $classe; ?></strong> </h5>
-        <h5> Incrit: <strong><?php echo $prix_inscription." FCFA "?></strong> Reste: <strong><?php echo $reste_inscription." FCFA "; ?></strong></h5>
-        <h5> Scolarisé: <strong><?php echo $prix_scolarite." FCFA "?></strong> Reste: <strong><?php echo $reste_scolarite." FCFA "; ?></strong></h5>
+        <h5> Incrit: <strong><?php echo $prix_inscription." FCFA "?></strong></h5>
+        <h5> Reste: <strong><?php echo $reste_inscription." FCFA "; ?></strong></h5>
+        <h5> Scolarisé: <strong><?php echo $prix_scolarite." FCFA "?></strong></h5>
+        <h5> Reste: <strong><?php echo $reste_scolarite." FCFA "; ?></strong></h5>
         <!-- <div class="btn-group">
             <button type="button" class="btn btn-theme03">Action</button>
             <button type="button" class="btn btn-theme03 dropdown-toggle" data-toggle="dropdown">
@@ -70,7 +74,7 @@ session_start();
           </div> -->
       </td>
      
-      <td> <h3><?php echo $m_inscription." et ".$m_scolarite; ?></h3> </td>
+      <td> <h4><?php echo $m_inscription." et ".$m_scolarite; ?></h4> </td>
   </tr>
 <?php }}else { echo '<h6 class="text-danger offset-3">Aucune donnée !</h6>';}
   

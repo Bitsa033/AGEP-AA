@@ -33,7 +33,7 @@ if (isset($_POST["input"]) && !empty($_POST["input"])) {
       <td>
           <ul class="list-inline">
               <li class="list-inline-item">
-                  <img alt="Avatar" class="table-avatar img img-circle" width="<?php echo $w.'px' ?>" src="photos/pascal.jpg">
+              <i class="fa fa-user"></i>
                   <span id="id"><?php echo "MAT-".$a["id"]; ?></span>
                   <h5><strong><?php echo $nomprenom; ?></strong></h5>
               </li>
@@ -42,7 +42,8 @@ if (isset($_POST["input"]) && !empty($_POST["input"])) {
       </td>
       <td>
         <h5> Classe: <strong><?php echo $classe; ?></strong> </h5>
-        <h5> Incrit: <strong><?php echo $prix." FCFA "?></strong> Reste: <strong><?php echo $reste." FCFA "; ?></strong></h5>
+        <h5> Incrit: <strong><?php echo $prix." FCFA "?></strong> </h5>
+        <h5> Reste: <strong><?php echo $reste." FCFA "; ?></strong></h5>
       </td>
      
       <td>
