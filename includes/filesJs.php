@@ -17,4 +17,4 @@
   <script type="text/javascript" src="lib/bootstrap-timepicker/js/bootstrap-timepicker.js"></script>
   <script src="lib/advanced-form-components.js"></script> -->
   <script src="lib/php-mail-form/validate.js"></script>
-  <?php require 'js/crud_student.php'; ?>
+  <?php require 'includes/crud_student.php'; ?>

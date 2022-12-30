@@ -12,6 +12,4 @@
 <link href="css/style.css" rel="stylesheet">
 <script src="lib/jquery/jquery.min.js"></script>
 <!-- <script src="js/navigation.js"></script> -->
-
-<script src="js/input_ddn.js"></script>
 <?php require 'php/database.php'; ?>
